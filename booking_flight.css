@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    height: 70px;
+    background-color: #000000;
+}
+.header button{
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14.4px;
+}
+.header .book-ticket{
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14.5px;
+    margin-left: 300px;
+    padding: 7px 10px;
+    border-style: none;
+    border-radius: 3px;
+}
+.header .book-ticket i{
+    font-size: 12px;
+    border-radius: 50%;
+    font-weight: 550;
+    border: 1px solid #333;
+    padding: 3px 5px;
+    margin-right: 3px;
+}
+.header .book-ticket:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.styled_text{
+    color: #fff;
+    text-decoration: none;
+}
+.header .title{
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 16px 630px 18px 4px;
+}
+.wrapper_hover{
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #000;
+    padding: 8px 10px;
+    margin: 10px;
+}
+.wrapper_hover:hover{
+    background-color: rgba(77,77,77,0.4);
+}
+.header .styled_button:hover{
+    background-color: #F0F6FD;
+}
+.icon_flag-vn{
+    width: 28px;
+    background-color: #003B95;
+    position: relative; 
+    top: 2.5px;
+    left: 6px;
+    margin-right: 10px;
+}
+.icon-question{
+    width: 4px;
+    height: 4px;
+    font-size: 16px;
+    font-weight: 450;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    background-color: #003B95;
+    margin: 5px;
+    margin-right: 30px;
+    position: relative;
+    top: 1px;
+    left: 12px;
+    box-sizing: border-box;
+}
+.styled_button{
+    color: #006ce4;
+    font-size: 14px;
+    padding: 7px 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    border-color: #006CE4;
+    border:1px solid #006CE4;
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+.header .styled_button:hover{
+    background-color: #F0F6FD;
+}
+
+.container .search_wrapper{
+    width: 1100px;
+    height: 62px;
+    background-color: #ffb700;
+    border-radius: 8px;
+    /* position:relative;
+    top: -30px; */
+    box-shadow: 1.5px 1.5px 8px #b8b7b7;
+}
+.container .search_wrapper .search_form{
+    width: 405px;
+    height: 55px;
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 4px;
+    position:relative;
+}
+.container .search_wrapper .search_form .txt_text{
+    background-image: url("img/white-bed.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 28px 28px;
+    padding-left: 40px;
+    background-position-x: 6px;
+}
+.container .search_wrapper .search_form + .search_form{
+    width: 298px;
+}
+.container .search_wrapper .search_form .resize-form{
+    height: 25px;
+    border-style: none;
+    margin: 5px 6px 0px 15px;
+    background-color: #fff;
+}
+.container .search_form .styled_button{
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+}
+.container .search_form .align-right{
+    position: absolute;
+    right: 20px;
+    box-sizing: border-box;
+    border-style: none;
+}
+.container .search_form .styled_text{
+    font-size: 14px;
+    font-weight: 550;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+    background-color: #fff;
+    border-style: none;
+}
+.container .search_form input[type="text"]{
+    width: 86%;
+    height: 62%;
+    margin-left: 8px;
+    border-style: none;
+}
+.container .search_form input[type="text"]:focus{
+    outline: 2px solid #006CE4;
+    border-radius: 3px;
+}
+.container .search_form ::placeholder{
+    color: #000;
+}
+.container .search_wrapper .color-button{
+    font-size: 20px;
+    color: #fff;
+    background-color: #0067DC;
+    width: 74px;
+    height: 55px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 550;
+}
